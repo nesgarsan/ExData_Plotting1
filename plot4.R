@@ -27,7 +27,7 @@ with(SubsetPowerConsumption,plot(Time,Sub_metering_1,xlab="",ylab="Energy sub me
 with(SubsetPowerConsumption,lines(Time,Sub_metering_1, col = "black"))
 with(SubsetPowerConsumption,lines(Time,Sub_metering_2, col = "red"))
 with(SubsetPowerConsumption,lines(Time,Sub_metering_3, col = "blue"))
-legend("topright",col=c("black","red","blue"),c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1)
+legend("topright",col=c("black","red","blue"),c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1,bty="n")
 
 ## Plot4
 with(SubsetPowerConsumption,plot(Time,Global_reactive_power,xlab="datetime", ylab="Global_reactive_power",type = "n"))
